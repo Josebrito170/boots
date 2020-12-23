@@ -1,0 +1,136 @@
+body{
+font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar{
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.51);
+    min-height: 100px;
+}
+
+.nav-link{
+    color: black;
+    font-weight: 500;
+}
+
+.navbar-brand{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.navbar-toggler{
+    font-size: 40px;}
+.navbar-toogler:focus{ outline: none;}
+
+#hero{
+    /**background-image: url('playa.jpg');**/
+    background-image: linear-gradient(to top, #8a8d8f91 0%, #e2ebf083 100%), url('1.png');
+    background-size: cover;
+    object-fit: cover;
+    padding-top: 90px;
+    min-height: 300px;
+    width: 100%;
+    color: #ffffff;
+    /**position: absolute;**/
+
+    display: flex;
+    flex-direction: row;
+}
+
+section h1{
+    font-size: 45px;
+    color: #1b5ace;
+    width: 700px;
+}
+
+section p{
+    font-size: 30px;
+    color: #386ac9;
+    font-weight: 600;
+
+}
+
+a i{
+    margin-top: -140px;
+    font-size: 180px;
+    color: #3978ecec;
+    text-align: center;
+}
+
+a i:hover{
+    color: #1b5ace;
+}
+
+.btn i{
+    margin-left: 8px;
+}
+
+.container-fluid h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 500;
+    color: #1b5ace;
+}
+
+.container-fluid{
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0;
+}
+
+#noticias{
+    padding: 0;
+}
+
+.conte{
+    height: 330px;
+    width: 100%;
+    background: #eff0f3;
+    padding-top: 20px;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.histo{
+    width: 400px;
+    display: inline-block;
+    font-size: inherit;
+    border-radius: 5%;
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.histo h5{
+    color: hsl(0, 0%, 100%);
+    position: absolute;
+    margin-top: 150px;
+    padding: 20px;
+}
+
+.histo img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: %;
+}
+
+.histo img:hover{
+    border: 8px solid #f7f7f7;
+}
+
+.fit{
+    object-fit: cover;
+    object-position: center;
+    width:100%;
+    height: 100%;
+}
+
+.hei-200{
+    height: 200px;
+}
